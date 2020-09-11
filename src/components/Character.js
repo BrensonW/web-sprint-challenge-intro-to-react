@@ -13,7 +13,7 @@ text-shadow: 5px 5px 5px gold;
  
 :hover {
     animation-name: spin;
-    animation-duration: 10000ms; /* How long lasts 1 turn */
+    animation-duration: 10s; /* How long lasts 1 turn */
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     border: dashed gold 4px;
@@ -35,7 +35,7 @@ text-shadow: 5px 5px 5px gold;
     to {
         transform:rotate(360deg);
     }
-`;
+`
 
 
 function Character(props) {
